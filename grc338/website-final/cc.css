@@ -1,0 +1,121 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display:block;
+}
+
+div.container {
+    background-color: rgb(250,250,250);
+    max-width: 70em;
+    min-height: 40em;
+    margin: auto;
+}
+
+body {
+    background-color:  rgb(250,250,250);
+    color: rgb(45,49,17);
+    line-height: 140%;
+    margin: 1rem;
+    padding: 1.5rem 0rem 0rem;
+    font-family: Poppins, sans-serif;
+}
+
+nav ul li {
+        display: inline;
+}
+
+nav ul li a{
+    margin-right: 4.8rem;
+    text-decoration: none;
+    color: rgb(45,49,17);
+}
+
+nav ul li a:hover{
+    color: rgb(187,198,119);
+}
+
+h1   {
+    width: 30em;
+    text-align: right;
+    padding-bottom: 1.5rem;
+}
+
+h2   {
+    margin: 1rem 0rem 1rem;
+    padding: 1.5rem 0rem 0rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: rgb(187,198,119);
+    letter-spacing: .1em;
+}
+
+h3   {
+    margin: 1rem 0rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(235,184,120);
+    letter-spacing: .1em;
+}
+
+h4   {
+    font-weight: bold;
+    color: rgb(222,104,54);
+
+}
+
+p {
+    margin-bottom: 1em;
+    max-width: 38em;
+}
+
+li   {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+ul li p {
+    margin: 0;
+}
+
+
+address {
+    margin-top: 1rem;
+    color:rgb(235,184,120);
+}
+
+footer {
+    background-color: rgb(222,104,54);
+    color: rgb(250,250,250);
+    min-height: 2em;
+    margin-top: 1rem;
+    padding: .1rem .5rem .5rem .5rem;
+}
+
+
+@media only screen and (min-width: 60em) {
+    
+    nav {background: rgb(250,250,250);}
+    
+    section.menuitems {
+        display: grid;
+        grid-template-columns: 70% auto;
+        column-gap: 1.5em;
+    }
+        
+    p {
+    margin-bottom: 5em;
+}
+
+    h2 {
+    margin-top:3em;
+    }
+        
+}
+    
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
