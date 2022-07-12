@@ -1,0 +1,77 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+body {
+    background-color: whitesmoke; 
+    color: black;
+    margin: 1em;
+    font-family: jeanne-moderno, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: jeanne-moderno, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul li a {
+    margin-right: 1.5em;
+    color: #19535F;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(187,198,119);
+}  
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+h3 {
+    color: #C73E1D;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: .5em;
+    padding-top: .7em;
+    text-decoration: none;
+}
+
+section a {
+    text-decoration: none;
+}
+
+p {
+    color: #C73E1D;
+    text-decoration: none;
+    padding-bottom: 1.25em;
+    font-family: poppins;
+    font-weight: lighter;
+    line-height: 1.35em;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #EDC5BC;
+    padding-top: 1em;
+    padding-left: 1em;
+}
