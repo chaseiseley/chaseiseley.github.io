@@ -31,6 +31,7 @@
                             <li><a href="#">Travel</a></li>
                             <li><a href="photogallery.html">Photos</a></li>
                             <li><a href="newsletter.html">Subscribe</a></li>
+
                         </ul>
                     </nav>
                     
@@ -142,5 +143,3 @@
             </body>
     
         </html>
-
-
