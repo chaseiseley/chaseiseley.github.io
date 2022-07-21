@@ -4,8 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 h1 {
 	width: 80%;
-    margin-right: 20em;
-    padding-right: 10em;
+    margin: auto;
 }
 
 body {
@@ -101,13 +100,13 @@ img.photo {
     width: 100%;
 }
 
-main.photo {
+main.photogallery {
     position: relative;
     overflow: hidden;
     padding-bottom: calc(72% + 3em);
 }
 
-figure.photo {
+figure.photogallery {
     margin: 0;
     width: calc(100%-2em);
     position: absolute;
@@ -115,7 +114,7 @@ figure.photo {
     transition: opacity .5s;
 }
 
-figure.photo figcaption {
+figure.photogallery figcaption {
     font-size: 1.2em;
     font-weight: bold;
     margin: 1em 0;
@@ -130,25 +129,23 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
 input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8)
-
-
-{
-    
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     opacity: 1;
+    
 }
 
-input.photo {
+nav.photogallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2.em;
+}
+
+input.photogallery {
     display: none;
 }
 
-nav.photo {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: .2em;
-}
 
-div.photo {
+div.photogallery {
     background-color: #fafafa;
     max-width: 60em;
     margin: 0 auto;
@@ -194,6 +191,7 @@ figcaption {
         grid-column: 2/3;
     }
     
+    
     section.newsletter {
         font-family: poppins;
         font-weight: 200;
@@ -206,12 +204,13 @@ figcaption {
     section ul li input [type="email"],
     section ul li input [type="tel"],
     section ul li select {
-        flex: 4 0 24em;
+        flex: 4 0 20em;
         box-sizing: border-box;
     }
 
     section.newsletter ul li label {
-	flex: 0 0 10em;
+	    display: flex;
+        flex-wrap: wrap;
 }
 
 section.newsletter h3{
